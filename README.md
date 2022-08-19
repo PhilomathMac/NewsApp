@@ -33,7 +33,7 @@ This app uses NewsApi. In order to use this app, follow the instructions below:
 2. Create an account with NewsAPI and get your own api key
 3. Create a Constants struct with a static constant to store your api key
 
-```
+``` swift
 struct Constants {
   static let apiKey = "ENTER YOUR API KEY HERE"
 }
