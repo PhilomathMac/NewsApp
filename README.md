@@ -37,6 +37,7 @@ This app uses NewsApi. In order to use this app, follow the instructions below:
 struct Constants {
   static let apiKey = "ENTER YOUR API KEY HERE"
 }
+```
 
 ## Attributions
 
