@@ -51,6 +51,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA92F79528B00D4100421A30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB74773B27AB3E6600FA17EC /* Article.swift */,
+				BB74773D27AB46C000FA17EC /* ArticleService.swift */,
+				BB74773F27AB471400FA17EC /* ArticleModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA92F79628B00D4600421A30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB74774527AC6F2C00FA17EC /* ArticleCell.swift */,
+				BB74772D27AB3E3E00FA17EC /* Main.storyboard */,
+				BB74773227AB3E3F00FA17EC /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA92F79728B00D4A00421A30 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB74772B27AB3E3E00FA17EC /* ViewController.swift */,
+				BB74774327AC6B6200FA17EC /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BA92F79828B00D8E00421A30 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB74774127AC65D200FA17EC /* Constants.swift */,
+				BBAE601727AC7A81007FB967 /* CacheManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		BB74771B27AB3E3E00FA17EC = {
 			isa = PBXGroup;
 			children = (
@@ -72,18 +110,12 @@
 			children = (
 				BB74772727AB3E3E00FA17EC /* AppDelegate.swift */,
 				BB74772927AB3E3E00FA17EC /* SceneDelegate.swift */,
-				BB74772B27AB3E3E00FA17EC /* ViewController.swift */,
-				BB74774327AC6B6200FA17EC /* DetailViewController.swift */,
-				BB74774527AC6F2C00FA17EC /* ArticleCell.swift */,
-				BB74772D27AB3E3E00FA17EC /* Main.storyboard */,
+				BA92F79728B00D4A00421A30 /* ViewControllers */,
+				BA92F79628B00D4600421A30 /* Views */,
+				BA92F79528B00D4100421A30 /* Models */,
+				BA92F79828B00D8E00421A30 /* Helpers */,
 				BB74773027AB3E3F00FA17EC /* Assets.xcassets */,
-				BB74773227AB3E3F00FA17EC /* LaunchScreen.storyboard */,
 				BB74773527AB3E3F00FA17EC /* Info.plist */,
-				BB74773B27AB3E6600FA17EC /* Article.swift */,
-				BB74773D27AB46C000FA17EC /* ArticleService.swift */,
-				BB74773F27AB471400FA17EC /* ArticleModel.swift */,
-				BB74774127AC65D200FA17EC /* Constants.swift */,
-				BBAE601727AC7A81007FB967 /* CacheManager.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
