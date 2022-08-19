@@ -9,15 +9,34 @@ SwiftUI app to get and display latest news articles that mention Apple
 
 ## Skills Practiced
 
-* ?
+* UIKit TableViews
+* Segues
+* Passing Information Between Views
+* DataSource and Delegate Pattern
+* WebKit
+* WKWebView
+* UIActivityIndicatorView
+* Retrieving Data with URLs
+* DispatchQueue
+* Decoding JSON Data
+* Caching Images
 
 ## Future Features / Fixes
-* Return to homeScreen when book added/deleted
-* Adjust UI layout for long book titles or authors
+* Prevent add videos from opening automatically?
+* Mark unread articles with a blue dot
 
 ## Use Instructions
 
-This app involves using a Firebase database. You'll need to install dependencies for Firebase, create your own Firebase database, and add your own GoogleService-Info.plist file.
+This app uses NewsApi. In order to use this app, follow the instructions below:
+
+1. Clone the repo
+2. Create an account with NewsAPI and get your own api key
+3. Create a Constants struct with a static constant to store your api key
+
+```
+struct Constants {
+  static let apiKey = "ENTER YOUR API KEY HERE"
+}
 
 ## Attributions
 
